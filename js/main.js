@@ -11,6 +11,7 @@ tyre.main = {
     },
     
     initBody:function (htmlUrl) {
+        $("#mainBody").empty();
         $("#mainBody").load(htmlUrl,function(){});
     }
 };
