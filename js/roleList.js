@@ -2,7 +2,7 @@ tyre.roleList = {
 
     init:function () {
         pageLoadingFrame("show");
-        tyre.orderList.doOrderList();
+        tyre.roleList.doRoleList();
         //Ä£Äâ¼ÓÔØ
         setTimeout(function(){
             pageLoadingFrame("hide");
